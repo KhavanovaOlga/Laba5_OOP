@@ -17,7 +17,7 @@ public:
 		cout << "Конструктор Base(Base& obj)\n";
 	}
 	~Base() {
-		cout << "Конструктор Base()\n";
+		cout << "Деструктор Base()\n";
 	}
 };
 
@@ -33,6 +33,6 @@ public:
 		cout << "Конструктор Desc(Desc& obj)\n";
 	}
 	~Desc() {
-		cout << "Конструктор Desc()\n";
+		cout << "Деструктор Desc()\n";
 	}
 };
